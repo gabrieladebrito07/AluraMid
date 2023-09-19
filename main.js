@@ -1,1 +1,1 @@
-alert('arquivo da gabi linda')
+document.querySelector('#som_tecla_pom').play();
