@@ -2,8 +2,12 @@ function tocaSomPom(){
     document. querySelector ('#som_tecla_pom').play();
 }
 
-const listaDeBotoes = document.querySelector('#som_tecla_pom').onclick= tocaSomPom;
+const listaDeBotoes = document.querySelector('tecla');
 
-let resultado = 2;
+let resultado = 0
 
-listaDeBotoes[0].onclick = tocaSomPom;
+
+while (contador < 9){
+  listaDeBotoes[contador].onclick = tocaSomPom;
+  contador =contador + 1;
+}
